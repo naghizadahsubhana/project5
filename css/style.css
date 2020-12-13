@@ -1,0 +1,326 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body .container {
+  width: 80%;
+  background-color: #e9967a;
+  min-height: 800px;
+}
+
+body .container header {
+  background-color: white;
+  width: 100%;
+}
+
+body .container header .icons {
+  width: 20px;
+}
+
+body .container header .up {
+  width: 100%;
+  background-color: #f1b9a7;
+}
+
+body .container header .up .row .left-col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+@media (max-width: 767px) {
+  body .container header .up .row .left-col {
+    display: none;
+  }
+}
+
+body .container header .up .row .left-col .cherry {
+  margin-left: 5px;
+}
+
+body .container header .up .row .right-col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+@media (max-width: 767px) {
+  body .container header .up .row .right-col {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+}
+
+body .container header .up .row .right-col .usd {
+  margin-right: 10px;
+}
+
+body .container header .center .row .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+body .container header .center .row .left .arrow {
+  margin-left: 5px;
+}
+
+body .container header .center .row .route {
+  text-align: center;
+}
+
+body .container header .center .row .route b {
+  color: #e9967a;
+}
+
+@media (max-width: 767px) {
+  body .container header .center .row .route b {
+    font-size: 2rem;
+  }
+}
+
+body .container header .center .row .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+body .container header .center .row .right .cart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+body .container header .center .row .right .cart .bag {
+  margin-right: 10px;
+}
+
+body .container header hr {
+  width: 97%;
+  margin-left: 13px;
+}
+
+body .container main .icons {
+  width: 20px;
+}
+
+body .container main .container-fulid {
+  background-color: white;
+}
+
+@media (max-width: 767px) {
+  body .container main .container-fulid .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+body .container main .container-fulid .row .container1 {
+  min-height: 600px;
+}
+
+body .container main .container-fulid .row .container1 img {
+  width: 100%;
+  min-height: 600px;
+}
+
+@media (max-width: 767px) {
+  body .container main .container-fulid .row .container1 img {
+    min-height: 500px;
+  }
+}
+
+body .container main .container-fulid .row .container2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media (max-width: 767px) {
+  body .container main .container-fulid .row .container2 .ring {
+    margin-left: 15px;
+  }
+}
+
+body .container main .container-fulid .row .container2 .details-list {
+  margin-top: 2rem;
+}
+
+body .container main .container-fulid .row .container2 .details-list p {
+  margin-left: 1rem;
+}
+
+body .container main .container-fulid .row .container2 .button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-left: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+body .container main .container-fulid .row .container2 .button .sign {
+  width: 5rem;
+  height: 45px;
+  margin-top: 7px;
+  border: 1px solid black;
+}
+
+body .container main .container-fulid .row .container2 .button .sign ul {
+  margin-top: 5px;
+  padding-left: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+body .container main .container-fulid .row .container2 .button .btn {
+  margin-left: 15px;
+  padding-bottom: 2rem;
+}
+
+@media (max-width: 767px) {
+  body .container main .container-fulid .row .container2 .button .btn {
+    margin-left: 0;
+  }
+}
+
+body .container main .container-fulid .row .container2 .button .btn button {
+  height: 45px;
+  width: 28rem;
+  background-color: #f1b9a7;
+}
+
+@media (max-width: 767px) {
+  body .container main .container-fulid .row .container2 .button .btn button {
+    width: 12rem;
+  }
+}
+
+@media (max-width: 767px) {
+  body .container main .container-fulid .row .container2 .three-list {
+    margin-left: 1rem;
+  }
+}
+
+body .container main .container-fulid .row .container2 .three-list .first-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+body .container main .container-fulid .row .container2 .three-list .first-list p {
+  margin-left: 10px;
+}
+
+body .container main .container-fulid .row .container2 .three-list .second-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+body .container main .container-fulid .row .container2 .three-list .second-list p {
+  margin-left: 10px;
+}
+
+body .container main .container-fulid .row .container2 .three-list .third-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+body .container main .container-fulid .row .container2 .three-list .third-list p {
+  margin-left: 10px;
+}
+
+body .container main .container-fulid .row .container2 .two-list {
+  margin-top: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+@media (max-width: 767px) {
+  body .container main .container-fulid .row .container2 .two-list {
+    margin-left: 1rem;
+  }
+}
+
+body .container main .container-fulid .row .container2 .two-list p {
+  text-decoration: underline;
+}
+
+body .container main .container-fulid .row .container2 .two-list .size {
+  margin-left: 3rem;
+}
+/*# sourceMappingURL=style.css.map */

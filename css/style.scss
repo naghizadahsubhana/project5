@@ -1,0 +1,210 @@
+@import "mixin";
+@import "variables";
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+body {
+  .container {
+    width: 80%;
+    background-color: #e9967a;
+    min-height: 800px;
+
+    header {
+      background-color: white;
+      width: 100%;
+
+      .icons {
+        width: 20px;
+      }
+      .up {
+        width: 100%;
+        background-color: #f1b9a7;
+
+        .row {
+          .left-col {
+            display: flex;
+            flex-direction: row;
+            @include mobile{
+                display: none;
+                
+            }
+            .cherry {
+              margin-left: 5px;
+            }
+          }
+          .right-col {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            @include mobile{
+                display: flex;
+justify-content: flex-start;
+            }
+            .usd {
+              margin-right: 10px;
+            }
+          }
+        }
+      }
+
+      .center {
+        .row {
+          .left {
+            display: flex;
+            flex-direction: row;
+            .arrow {
+              margin-left: 5px;
+            }
+          }
+          .route {
+            text-align: center;
+            b {
+              color: #e9967a;
+              @include mobile{
+                  font-size: 2rem;
+              }
+            }
+          }
+          .right {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            .cart {
+              display: flex;
+              flex-direction: row;
+              .bag {
+                margin-right: 10px;
+              }
+            }
+          }
+        }
+      }
+      hr {
+        width: 97%;
+        margin-left: 13px;
+      }
+      .down {
+      }
+    }
+    main {
+        .icons{
+            width: 20px;
+        }
+      .container-fulid {
+        background-color: white;
+        .row {
+            @include mobile{
+                display: flex;
+                flex-direction: column;
+            }
+          .container1 {
+              min-height: 600px;
+            img {
+              width: 100%;
+              min-height:600px;
+              @include mobile{
+                  min-height: 500px;
+              }
+            }
+          }
+          .container2 {
+              display: flex;
+              flex-direction: column;
+            .ring {
+                @include mobile{
+                    margin-left: 15px;
+                }
+            }
+            .details-list {
+                margin-top: 2rem;
+                p{
+                    margin-left: 1rem;
+                }
+            }
+            .button {
+              display: flex;
+              flex-direction: row;
+              margin-left: 1rem;
+              margin-top: 2rem;
+              margin-bottom: 2rem;
+              .sign {
+                width: 5rem;
+                height: 45px;
+
+                margin-top: 7px;
+                border: 1px solid black;
+
+                ul {
+                  margin-top: 5px;
+                  padding-left: 0px;
+                  display: flex;
+                  flex-direction: row;
+                  justify-content: space-evenly;
+                }
+              }
+              .btn {
+                  margin-left: 15px;
+                padding-bottom: 2rem;
+                @include mobile{
+                    margin-left: 0;
+                }
+                button{
+                height:45px;
+                width: 28rem;
+                background-color: #f1b9a7;
+                @include mobile{
+                    width: 12rem;
+                }
+                }
+              }
+            }
+            .three-list {
+                @include mobile{
+                   margin-left: 1rem;
+                }
+                .first-list{
+                    display: flex;
+                    flex-direction: row;
+                    p{
+                        margin-left:10px;
+                    }
+                }
+                .second-list{
+                    display: flex;
+                    flex-direction: row;
+                    p{
+                        margin-left:10px;
+                    }
+                }
+                .third-list{
+                    display: flex;
+                    flex-direction: row;
+                    p{
+                        margin-left:10px;
+                    }
+                }
+            }
+            .two-list {
+                @include mobile{
+                    margin-left: 1rem;
+                 }
+                margin-top: 1rem;
+                display: flex;
+                flex-direction: row;
+                p{
+                    text-decoration: underline;
+                }
+                .size{
+                    margin-left:3rem;
+                }
+            }
+          }
+        }
+      }
+    }
+  }
+}
